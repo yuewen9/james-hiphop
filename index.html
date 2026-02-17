@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST_SHELL // Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="container">
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="terminal-btn red"></span>
+                <span class="terminal-btn yellow"></span>
+                <span class="terminal-btn green"></span>
+                <span class="terminal-title">ghost@root:~</span>
+            </div>
+            <div class="terminal-body" id="terminal">
+                <div class="output" id="output"></div>
+                <div class="input-line">
+                    <span class="prompt">$</span>
+                    <span class="cursor" id="cursor"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="matrix"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
